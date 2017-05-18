@@ -4,7 +4,7 @@ __version__ = '0.1-alpha'
 
 from flask import current_app
 from py2neo import Graph
-from py2neo.ogm import GraphObject, Property, RelatedTo, RelatedFrom
+from py2neo.ogm import GraphObject, Label, Property,  RelatedFrom, RelatedTo
 
 
 class Py2Neo(object):
@@ -13,6 +13,7 @@ class Py2Neo(object):
 
         self.app = app
         self.Model = GraphObject
+        self.Label = Label
         self.Property = Property
         self.RelatedTo = RelatedTo
         self.RelatedFrom = RelatedFrom
