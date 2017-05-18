@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-__version__ = '0.1'
+__version__ = '0.1-alpha'
 
 from flask import current_app
 from py2neo import Graph
