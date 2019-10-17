@@ -39,9 +39,9 @@ Then define some view functions:
 Object-Graph Mapper
 -------------------
 
-Another goal is to mold the OGM-interface to be similar to the Flask-SQLAlchemy API. What this means is that you can construct your data model like:
+    from py2neo.ogm import GraphObject
 
-    class Post(db.Model):
+    class Post(GraphObject):
 
         title = db.Property()
 
@@ -53,8 +53,10 @@ Another goal is to mold the OGM-interface to be similar to the Flask-SQLAlchemy 
 References
 ----------
 
-- py2neo Handbook: http://py2neo.org/v3/
-- py2neo OGM: http://py2neo.org/v3/ogm.html
+- py2neo v3 Handbook: http://py2neo.org/v3/
+- py2neo v4 Handbook: http://py2neo.org/v3/
+- py2neo v3 OGM: http://py2neo.org/v3/ogm.html
+- py2neo v4 OGM: http://py2neo.org/v3/ogm.html
 - py2neo: https://github.com/technige/py2neo
 - Flask: https://github.com/pallets/flask
 
