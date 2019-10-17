@@ -21,7 +21,7 @@ setup(
     packages=find_packages(),
     py_modules=['flask_py2neo'],
     install_requires=[
-        'Flask>=0.7',
+        'Flask>=0.11',
         'py2neo>3.0',
     ],
     tests_require=[
