@@ -54,9 +54,9 @@ References
 ----------
 
 - py2neo v3 Handbook: http://py2neo.org/v3/
-- py2neo v4 Handbook: http://py2neo.org/v3/
+- py2neo v4 Handbook: http://py2neo.org/v4/
 - py2neo v3 OGM: http://py2neo.org/v3/ogm.html
-- py2neo v4 OGM: http://py2neo.org/v3/ogm.html
+- py2neo v4 OGM: http://py2neo.org/v4/ogm.html
 - py2neo: https://github.com/technige/py2neo
 - Flask: https://github.com/pallets/flask
 
