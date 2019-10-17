@@ -39,11 +39,11 @@ Then define some view functions:
 Object-Graph Mapper
 -------------------
 
-    from py2neo.ogm import GraphObject
+    from py2neo.ogm import GraphObject, Property
 
     class Post(GraphObject):
 
-        title = db.Property()
+        title = Property()
 
     post = Post()
     post.title = 'my first post'
